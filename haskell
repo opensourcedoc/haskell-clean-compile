@@ -69,7 +69,7 @@ fi
 
 HASKELL="ghc"
 # TODO: Fine‑tune warning settings to improve diagnostics.
-HASKELL_FLAGS="-Wdefault -Wextra"
+HASKELL_FLAGS="-Wdefault -Wextra -Werror"
 
 if ! (cd -- "$temp_dir" && $HASKELL $HASKELL_FLAGS -o "$exe_output" $new_sources); then
     echo "Haskell compilation failed" >&2
