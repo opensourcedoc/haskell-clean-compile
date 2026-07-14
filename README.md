@@ -20,7 +20,7 @@ This project provides a lightweight shell scripts — `haskell` — that compile
 ## Usage
 
 ```shell
-$ haskell main.ml
+$ haskell lib.hs utils.hs main.hs
 ```
 
 ## Non-Goal
